@@ -21,6 +21,7 @@
   
   .links-container {
     display: flex;
+   
   }
   
   .links-container p {
@@ -31,5 +32,17 @@
   
   .links-container p:hover {
     color: #3f51b5;
+  }
+  
+
+  .login-link {
+    font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 10px;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
   }
   
