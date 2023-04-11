@@ -1,14 +1,15 @@
-import './App.css'
-import { NavBar } from './components/navbars/Navbar';
-import { Direcotry } from './components/direcotry/directory';
+// import './App.css'
+import { Routes, Route } from 'react-router-dom';
+import { Home } from '../src/routes/home/home.component'
+import { About } from './routes/about/about.component';
 const App = () => {
 
   return (
-    <div className='main'>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
 
-      <NavBar />
-      <Direcotry />
-    </div>
+    </Routes>
   );
 
 }

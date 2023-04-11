@@ -1,6 +1,6 @@
 import React from "react";
 import './directory.css';
-import { Card } from "../navbars/card/Card";
+import { Card } from '../card/Card'
 
 const Direcotry = () => {
     let categories = [
